@@ -1,5 +1,4 @@
-# Photomap
-A Leaflet map that reads data from Google Sheets.  
+ 
 https://caderounds.github.io/photomap/
 Created as an example for [GEOG 4046](https://geog4046.github.io).  
 
@@ -14,3 +13,5 @@ description | A sentence or two describing the location in more detail    |
 lat         | Latitude in decimal degrees                                 |
 long        | Longitude in decimal degrees                                |
 pic_url     | The URL to an image that will be displayed in the popup     |
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vQVgHpoKjIcJzNNnmkN0pu3LDFA0wAlpcjLHYHbtNN4UA2dzyG-X4acT4bXCPIx5ZyUhe3MD8DI2rCs/pub?gid=0&single=true&output=csv
