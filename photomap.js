@@ -14,7 +14,7 @@
  */
 function createPhotoMap () {
   // URL of a Google Sheets spreadsheet output as CSV
-  var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVgHpoKjIcJzNNnmkN0pu3LDFA0wAlpcjLHYHbtNN4UA2dzyG-X4acT4bXCPIx5ZyUhe3MD8DI2rCs/pubhtml?gid=0&single=true';  // create map object with center lat/lon and zoom level
+  var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVgHpoKjIcJzNNnmkN0pu3LDFA0wAlpcjLHYHbtNN4UA2dzyG-X4acT4bXCPIx5ZyUhe3MD8DI2rCs/pub?gid=0&single=true&output=csv';  // create map object with center lat/lon and zoom level
   var map = L.map('map').setView([30.4050, -91.1156], 12);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
